@@ -1,4 +1,3 @@
-// Circle.js
 import React, { useState, useEffect } from 'react';
 
 const Circle = ({ handleColorSelection }) => {
@@ -29,6 +28,9 @@ const Circle = ({ handleColorSelection }) => {
         setTotalTime((prevTotal) => prevTotal + elapsed);
         setNumQuestions((prevNum) => prevNum + 1);
         setCurrentColor(colorMap[selectedColor]); // Update current color
+      } else {
+        handleColorSelection('incorrect'); // Count any other key as incorrect
+        setIsVisible(false);
       }
     };
 
