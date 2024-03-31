@@ -40,6 +40,16 @@ function App() {
   }, [isTestRunning, timer]);
 
   const handleStart = () => {
+    if(timer===0){
+      setShowResults(false);
+      setTimer(60);
+      setTestResults({
+        correctAnswers: 0,
+        incorrectAnswers: 0,
+        averageTimePerQuestion: 0,
+        totalQuestionsAnswered: 0,
+      }); 
+    }
     setIsTestRunning(true);
     setTestStarted(true); // Test has been started
     setIsOpen(false); // Close instructions modal
