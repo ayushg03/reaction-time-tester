@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Reaction Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Reaction Test is a free practice website designed for individuals preparing for DMRC, NMRC, or LMRC machine tests. This website offers a reaction time test to help users improve their speed and time perception skills.
 
-## Available Scripts
+## Purpose
+The reaction time test measures how quickly an individual can respond to stimuli. It is an essential skill for jobs that require quick decision-making and response, such as those in transportation and emergency services. Reaction Test aims to help users practice and improve their reaction time in a simulated environment.
 
-In the project directory, you can run:
+## Features
+- Simple and intuitive interface
+- Instructions provided for easy usage
+- Practice test to improve reaction time
+- Real-time feedback on performance
 
-### `npm start`
+## Instructions
+To use Reaction Test, follow these instructions:
+1. **Load Color**: Press 'l' to load a color on the screen.
+2. **Answer**: Press 'r', 'g', 'y', or 'b' corresponding to the color displayed on the screen to answer.
+3. **Test Duration**: The total test duration is 1 minute.
+4. **View Results**: Once the timer expires, the test results will be shown on the screen.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Note**: Please ensure that Caps Lock is off while using the test. The application may not function correctly with Caps Lock on.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Use
+1. Visit the [Reaction Test website](https://reaction-time-tester-mu.vercel.app/).
+2. Read the instructions carefully.
+3. Press 'l' to load a color on the screen.
+4. Respond quickly by pressing the corresponding key for the displayed color.
+5. Repeat the process until the test duration is over.
+6. View your test results at the end of the test.
 
-### `npm test`
+## About
+Reaction Test is created as a practice tool for individuals preparing for DMRC, NMRC, or LMRC machine tests. It is developed with the aim of helping users enhance their reaction time skills in a simulated environment.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Feedback
+We welcome any feedback or suggestions to improve Reaction Test. If you have any comments or ideas, please feel free to [contact us](mailto:ayushgupta3172@gmail.com).
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Disclaimer
+Reaction Test is a practice tool and should not be used as a sole measure of reaction time or performance. Actual performance may vary depending on various factors. Always consult with professionals for accurate assessment and training.
